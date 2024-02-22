@@ -13,7 +13,7 @@ ENV JAVA_HOME /usr/lib/jvm/java-17-openjdk-amd64
 WORKDIR /app
 
 # ARG BRANCH_NAME=main
-ARG DIR_NAME=teamkim
+ARG DIR_NAME=teamKim
 
 # Clone the Git repository. Here we dynamically specify the repository name using the variable defined earlier.
 # RUN git clone -b ${BRANCH_NAME} https://github.com/gocolab/co_templates ${DIR_NAME}
